@@ -102,5 +102,5 @@ for category_url in category_urls:
 headers = ['sid', 'Ссылка категории', 'Категория 1-ого уровня', 'Категория 2-ого уровня', 'Наименование товара',
            'Ссылка на товар', 'Старая цена', 'Цена', 'Срок окончания Акции', 'Информация о товаре']
 date = datetime.datetime.now().strftime('%H-%M-%Y-%m-%d')
-writeDataToCSV(os.path.join(OUTPUT, f'sber-{date}.json'), headers, all_data)
+writeDataToCSV(os.path.join(OUTPUT, f'sber-{date}.csv'), headers, all_data)
 print('Данные собраны!')
