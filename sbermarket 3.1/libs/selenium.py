@@ -3,8 +3,8 @@ import time
 from selenium import webdriver
 from selenium.common import WebDriverException, exceptions
 from selenium.webdriver.support import expected_conditions as EC
-from config.conf import delay
 
+from config.conf import delay
 from config.dev_conf import CHROMEDRIVER
 
 

@@ -1,12 +1,12 @@
 import datetime
 import os
-from tqdm import tqdm
 
 from selenium.common import NoSuchElementException, exceptions, MoveTargetOutOfBoundsException
 from selenium.webdriver import ActionChains
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
+from tqdm import tqdm
 
 from config.conf import path
 from config.dev_conf import INPUT, OUTPUT
@@ -51,7 +51,7 @@ for idx, category_url in enumerate(category_urls):
         except (exceptions.TimeoutException, exceptions.StaleElementReferenceException):
             continue
 
-    print(f'Собираем данные с ссылки: {url}. {round(((idx+1)/len(category_urls)*100), 2)}%')
+    print(f'Собираем данные с ссылки: {url}. {round(((idx + 1) / len(category_urls) * 100), 2)}%')
 
     info = [*category_url]
 
