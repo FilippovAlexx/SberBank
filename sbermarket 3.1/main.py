@@ -13,6 +13,8 @@ from config.dev_conf import INPUT, OUTPUT
 from libs.file_work import writeDataToCSV, read_file
 from libs.selenium import init_driver, safe_get, does_element_exist, scroll
 
+date = datetime.datetime.now().strftime('%H-%M-%Y-%m-%d')
+
 arr = read_file(os.path.join(INPUT, path))
 
 category_urls = [(store['sid'], store['url'], store["category"], store["subCategory"]) for store in arr]
@@ -23,7 +25,13 @@ wait = WebDriverWait(driver, 10)
 ac = ActionChains(driver)
 all_data = []
 
-for category_url in category_urls:
+headers = ['sid', 'Ссылка категории', 'Категория 1-ого уровня', 'Категория 2-ого уровня', 'Наименование товара',
+           'Ссылка на товар', 'Старая цена', 'Цена', 'Срок окончания Акции', 'Информация о товаре']
+
+way = os.path.join(OUTPUT, f'sber-{date}.csv')
+writeDataToCSV(way, data=[headers])
+
+for idx, category_url in enumerate(category_urls):
     sid, url, category, subCategory = category_url
 
     if not safe_get(driver, url):
@@ -43,7 +51,7 @@ for category_url in category_urls:
         except (exceptions.TimeoutException, exceptions.StaleElementReferenceException):
             continue
 
-    print(f'Собираем данные с ссылки: {url}.')
+    print(f'Собираем данные с ссылки: {url}. {round(((idx+1)/len(category_urls)*100), 2)}%')
 
     info = [*category_url]
 
@@ -97,10 +105,6 @@ for category_url in category_urls:
         except NoSuchElementException:
             data.append('')
 
-        all_data.append(data)
+        writeDataToCSV(os.path.join(way), data=[data])
 
-headers = ['sid', 'Ссылка категории', 'Категория 1-ого уровня', 'Категория 2-ого уровня', 'Наименование товара',
-           'Ссылка на товар', 'Старая цена', 'Цена', 'Срок окончания Акции', 'Информация о товаре']
-date = datetime.datetime.now().strftime('%H-%M-%Y-%m-%d')
-writeDataToCSV(os.path.join(OUTPUT, f'sber-{date}.csv'), headers, all_data)
 print('Данные собраны!')

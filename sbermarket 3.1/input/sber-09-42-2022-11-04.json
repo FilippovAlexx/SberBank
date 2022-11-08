@@ -1,8 +1,208 @@
 [
-{
-  "sid": 65,
-   "category": "Зелёный день",
-   "subCategory": "Бакалея",
-   "url": "https://sbermarket.ru/metro/c/zelyonij-den-2476604/bakaleya-818898d?sid=65&source=category"
-}
+  {
+    "sid": 65,
+    "category": "Зелёный день",
+    "subCategory": "Бакалея",
+    "url": "https://sbermarket.ru/metro/c/zelyonij-den-2476604/bakaleya-818898d?sid=65&source=category"
+  }
+  ,
+  {
+    "sid": 65,
+    "category": "Зелёный день",
+    "subCategory": "Хлеб, выпечка",
+    "url": "https://sbermarket.ru/metro/c/zelyonij-den-2476604/khleb-vipechka-6bc7777?sid=65&source=category"
+  },
+  {
+    "sid": 65,
+    "category": "Зелёный день",
+    "subCategory": "Соусы, специи, приправы",
+    "url": "https://sbermarket.ru/metro/c/zelyonij-den-2476604/sousi-spetsii-pripravi-84586c3?sid=65&source=category"
+  },
+  {
+    "sid": 66,
+    "category": "Зелёный день",
+    "subCategory": "Бакалея",
+    "url": "https://sbermarket.ru/metro/c/zelyonij-den-2476604/bakaleya-818898d?sid=66&source=category"
+  },
+  {
+    "sid": 66,
+    "category": "Рыба, морепродукты, икра",
+    "subCategory": "Бакалея",
+    "url": "https://sbermarket.ru/metro/c/riba-moreprodukti-new-new?sid=66"
+  },
+  {
+    "sid": 236,
+    "category": "Зелёный день",
+    "subCategory": "Бакалея",
+    "url": "https://sbermarket.ru/auchan/c/zelyonij-den-2476604/bakaleya-818898d?sid=236&source=category"
+  },
+  {
+    "sid": 236,
+    "category": "Собственное производство",
+    "subCategory": "Кулинария",
+    "url": "https://sbermarket.ru/auchan/c/sobstvennoe-proizvodstvo_osnovnaya/khleb-vipechka?sid=236&source=category"
+  },
+  {
+    "sid": 158,
+    "category": "Алкоголь",
+    "subCategory": "Вино",
+    "url": "https://sbermarket.ru/lenta/c/alcohol-new/vino?sid=158&source=category"
+  },
+  {
+    "sid": 158,
+    "category": "Овощи, фрукты, орехи",
+    "subCategory": "Овощи",
+    "url": "https://sbermarket.ru/lenta/c/ovoshchi-frukti-orekhi/ovoshchi?sid=158&source=category"
+  },
+  {
+    "sid": 273,
+    "category": "Зелёный день",
+    "subCategory": "Бакалея",
+    "url": "https://sbermarket.ru/auchan/c/zelyonij-den-2476604/bakaleya-818898d?sid=273&source=category"
+  },
+  {
+    "sid": 273,
+    "category": "Зелёный день",
+    "subCategory": "Фрукты, ягоды",
+    "url": "https://sbermarket.ru/auchan/c/zelyonij-den-2476604/frukti-yagodi-33762bc?sid=273&source=category"
+  },
+  {
+    "sid": 273,
+    "category": "Сладости",
+    "subCategory": "Печенье, пряники, сушки",
+    "url": "https://sbermarket.ru/auchan/c/sladosti_new/pechene-pryaniki-sushki?sid=273&source=category"
+  },
+  {
+    "sid": 273,
+    "category": "Без наценки на бренд",
+    "subCategory": "Консервы, соленья",
+    "url": "https://sbermarket.ru/auchan/c/bez-natsenki-na-brend-e4d34de/konservi-solenya?sid=273&source=category"
+  },
+  {
+    "sid": 31489,
+    "category": "Лекарства",
+    "subCategory": "Астма",
+    "url": "https://sbermarket.ru/aptekamagnit/c/katalog-apteka/lekarstva/astma?sid=31489&source=category"
+  },
+  {
+    "sid": 31489,
+    "category": "Витамины, БАДы",
+    "subCategory": "Витамины, минералы",
+    "url": "https://sbermarket.ru/aptekamagnit/c/katalog-apteka/vitamini-badi/vitamini-minerali?sid=31489&source=category"
+  },
+  {
+    "sid": 31490,
+    "category": "Домашняя аптечка",
+    "subCategory": "Первая помощь",
+    "url": "https://sbermarket.ru/aptekamagnit/c/katalog-apteka/v-domashnyuyu-aptechku/pervaya-pomoshch-0259d38?sid=31490&source=category"
+  },
+  {
+    "sid": 12631,
+    "category": "Лекарства",
+    "subCategory": "Аллергия",
+    "url": "https://sbermarket.ru/auchan/c/bez-natsenki-na-brend-e4d34de/konservi-solenya?sid=273&source=category"
+  },
+  {
+    "sid": 65,
+    "category": "Зелёный день",
+    "subCategory": "Бакалея",
+    "url": "https://sbermarket.ru/metro/c/zelyonij-den-2476604/bakaleya-818898d?sid=65&source=category"
+  }
+  ,
+  {
+    "sid": 65,
+    "category": "Зелёный день",
+    "subCategory": "Хлеб, выпечка",
+    "url": "https://sbermarket.ru/metro/c/zelyonij-den-2476604/khleb-vipechka-6bc7777?sid=65&source=category"
+  },
+  {
+    "sid": 65,
+    "category": "Зелёный день",
+    "subCategory": "Соусы, специи, приправы",
+    "url": "https://sbermarket.ru/metro/c/zelyonij-den-2476604/sousi-spetsii-pripravi-84586c3?sid=65&source=category"
+  },
+  {
+    "sid": 66,
+    "category": "Зелёный день",
+    "subCategory": "Бакалея",
+    "url": "https://sbermarket.ru/metro/c/zelyonij-den-2476604/bakaleya-818898d?sid=66&source=category"
+  },
+  {
+    "sid": 66,
+    "category": "Рыба, морепродукты, икра",
+    "subCategory": "Бакалея",
+    "url": "https://sbermarket.ru/metro/c/riba-moreprodukti-new-new?sid=66"
+  },
+  {
+    "sid": 236,
+    "category": "Зелёный день",
+    "subCategory": "Бакалея",
+    "url": "https://sbermarket.ru/auchan/c/zelyonij-den-2476604/bakaleya-818898d?sid=236&source=category"
+  },
+  {
+    "sid": 236,
+    "category": "Собственное производство",
+    "subCategory": "Кулинария",
+    "url": "https://sbermarket.ru/auchan/c/sobstvennoe-proizvodstvo_osnovnaya/khleb-vipechka?sid=236&source=category"
+  },
+  {
+    "sid": 158,
+    "category": "Алкоголь",
+    "subCategory": "Вино",
+    "url": "https://sbermarket.ru/lenta/c/alcohol-new/vino?sid=158&source=category"
+  },
+  {
+    "sid": 158,
+    "category": "Овощи, фрукты, орехи",
+    "subCategory": "Овощи",
+    "url": "https://sbermarket.ru/lenta/c/ovoshchi-frukti-orekhi/ovoshchi?sid=158&source=category"
+  },
+  {
+    "sid": 273,
+    "category": "Зелёный день",
+    "subCategory": "Бакалея",
+    "url": "https://sbermarket.ru/auchan/c/zelyonij-den-2476604/bakaleya-818898d?sid=273&source=category"
+  },
+  {
+    "sid": 273,
+    "category": "Зелёный день",
+    "subCategory": "Фрукты, ягоды",
+    "url": "https://sbermarket.ru/auchan/c/zelyonij-den-2476604/frukti-yagodi-33762bc?sid=273&source=category"
+  },
+  {
+    "sid": 273,
+    "category": "Сладости",
+    "subCategory": "Печенье, пряники, сушки",
+    "url": "https://sbermarket.ru/auchan/c/sladosti_new/pechene-pryaniki-sushki?sid=273&source=category"
+  },
+  {
+    "sid": 273,
+    "category": "Без наценки на бренд",
+    "subCategory": "Консервы, соленья",
+    "url": "https://sbermarket.ru/auchan/c/bez-natsenki-na-brend-e4d34de/konservi-solenya?sid=273&source=category"
+  },
+  {
+    "sid": 31489,
+    "category": "Лекарства",
+    "subCategory": "Астма",
+    "url": "https://sbermarket.ru/aptekamagnit/c/katalog-apteka/lekarstva/astma?sid=31489&source=category"
+  },
+  {
+    "sid": 31489,
+    "category": "Витамины, БАДы",
+    "subCategory": "Витамины, минералы",
+    "url": "https://sbermarket.ru/aptekamagnit/c/katalog-apteka/vitamini-badi/vitamini-minerali?sid=31489&source=category"
+  },
+  {
+    "sid": 31490,
+    "category": "Домашняя аптечка",
+    "subCategory": "Первая помощь",
+    "url": "https://sbermarket.ru/aptekamagnit/c/katalog-apteka/v-domashnyuyu-aptechku/pervaya-pomoshch-0259d38?sid=31490&source=category"
+  },
+  {
+    "sid": 12631,
+    "category": "Лекарства",
+    "subCategory": "Аллергия",
+    "url": "https://sbermarket.ru/auchan/c/bez-natsenki-na-brend-e4d34de/konservi-solenya?sid=273&source=category"
+  }
 ]
