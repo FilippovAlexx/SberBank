@@ -25,12 +25,6 @@
     "url": "https://sbermarket.ru/metro/c/zelyonij-den-2476604/bakaleya-818898d?sid=66&source=category"
   },
   {
-    "sid": 66,
-    "category": "Рыба, морепродукты, икра",
-    "subCategory": "Бакалея",
-    "url": "https://sbermarket.ru/metro/c/riba-moreprodukti-new-new?sid=66"
-  },
-  {
     "sid": 236,
     "category": "Зелёный день",
     "subCategory": "Бакалея",
@@ -128,12 +122,6 @@
     "url": "https://sbermarket.ru/metro/c/zelyonij-den-2476604/bakaleya-818898d?sid=66&source=category"
   },
   {
-    "sid": 66,
-    "category": "Рыба, морепродукты, икра",
-    "subCategory": "Бакалея",
-    "url": "https://sbermarket.ru/metro/c/riba-moreprodukti-new-new?sid=66"
-  },
-  {
     "sid": 236,
     "category": "Зелёный день",
     "subCategory": "Бакалея",
@@ -204,5 +192,36 @@
     "category": "Лекарства",
     "subCategory": "Аллергия",
     "url": "https://sbermarket.ru/auchan/c/bez-natsenki-na-brend-e4d34de/konservi-solenya?sid=273&source=category"
+  },
+  {
+    "sid": 12631,
+    "category": "Лекарства",
+    "subCategory": "Аллергия",
+    "url": "https://sbermarket.ru/auchan/c/bez-natsenki-na-brend-e4d34de/konservi-solenya?sid=273&source=category"
+  },
+  {
+    "sid": 65,
+    "category": "Зелёный день",
+    "subCategory": "Бакалея",
+    "url": "https://sbermarket.ru/metro/c/zelyonij-den-2476604/bakaleya-818898d?sid=65&source=category"
+  }
+  ,
+  {
+    "sid": 65,
+    "category": "Зелёный день",
+    "subCategory": "Хлеб, выпечка",
+    "url": "https://sbermarket.ru/metro/c/zelyonij-den-2476604/khleb-vipechka-6bc7777?sid=65&source=category"
+  },
+  {
+    "sid": 65,
+    "category": "Зелёный день",
+    "subCategory": "Соусы, специи, приправы",
+    "url": "https://sbermarket.ru/metro/c/zelyonij-den-2476604/sousi-spetsii-pripravi-84586c3?sid=65&source=category"
+  },
+  {
+    "sid": 66,
+    "category": "Зелёный день",
+    "subCategory": "Бакалея",
+    "url": "https://sbermarket.ru/metro/c/zelyonij-den-2476604/bakaleya-818898d?sid=66&source=category"
   }
 ]

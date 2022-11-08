@@ -2,7 +2,7 @@ import datetime
 import os
 from tqdm import tqdm
 
-from selenium.common import NoSuchElementException, exceptions
+from selenium.common import NoSuchElementException, exceptions, MoveTargetOutOfBoundsException
 from selenium.webdriver import ActionChains
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
@@ -64,7 +64,10 @@ for idx, category_url in enumerate(category_urls):
         pbar.set_description('Загружено')
         data = [*info]
 
-        ac.move_to_element(product).perform()
+        try:
+            ac.move_to_element(product).perform()
+        except MoveTargetOutOfBoundsException:
+            continue
 
         try:
             name = product.find_element(By.CLASS_NAME, 'ProductCard_styles_title__0noWn').text
