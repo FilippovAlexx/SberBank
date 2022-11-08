@@ -1,4 +1,6 @@
+import datetime
 import os
+from tqdm import tqdm
 
 from selenium.common import NoSuchElementException, exceptions
 from selenium.webdriver import ActionChains
@@ -41,7 +43,7 @@ for category_url in category_urls:
         except (exceptions.TimeoutException, exceptions.StaleElementReferenceException):
             continue
 
-    print(f'Собираем данные с данной ссылки: {url}.')
+    print(f'Собираем данные с ссылки: {url}.')
 
     info = [*category_url]
 
@@ -49,7 +51,9 @@ for category_url in category_urls:
 
     products = driver.find_elements(*locator)
 
-    for product in products[::-1]:
+    pbar = tqdm(products[::-1])
+    for product in pbar:
+        pbar.set_description('Загружено')
         data = [*info]
 
         ac.move_to_element(product).perform()
@@ -97,5 +101,6 @@ for category_url in category_urls:
 
 headers = ['sid', 'Ссылка категории', 'Категория 1-ого уровня', 'Категория 2-ого уровня', 'Наименование товара',
            'Ссылка на товар', 'Старая цена', 'Цена', 'Срок окончания Акции', 'Информация о товаре']
-writeDataToCSV(os.path.join(OUTPUT, 'sber_data.csv'), headers, all_data)
+date = datetime.datetime.now().strftime('%H-%M-%Y-%m-%d')
+writeDataToCSV(os.path.join(OUTPUT, f'sber-{date}.json'), headers, all_data)
 print('Данные собраны!')
