@@ -71,6 +71,8 @@ for idx, category_url in enumerate(category_urls):
 
         try:
             name = product.find_element(By.CLASS_NAME, 'ProductCard_styles_title__0noWn').text
+            if '...' in name:
+                name = product.find_element(By.CLASS_NAME, 'ProductCard_styles_title__0noWn').get_attribute('title')
             data.append(name)
         except NoSuchElementException:
             data.append('')
@@ -83,15 +85,13 @@ for idx, category_url in enumerate(category_urls):
 
         try:
             fake_price = \
-                product.find_element(By.CLASS_NAME, 'ProductCardPrice_styles_originalPrice__O2PgD').text.split('\n')[
-                    1].strip()
+                product.find_element(By.CLASS_NAME, 'ProductCardPrice_styles_originalPrice__O2PgD').text.split('\n')[1].strip()
             data.append(fake_price)
         except NoSuchElementException:
             data.append('')
 
         try:
-            price = product.find_element(By.CLASS_NAME, 'ProductCardPrice_styles_price__NCcXq').text.split('\n')[
-                1].strip()
+            price = product.find_element(By.CLASS_NAME, 'ProductCardPrice_styles_price__NCcXq').text.split('\n')[1].strip()
             data.append(price)
         except NoSuchElementException:
             data.append('')
